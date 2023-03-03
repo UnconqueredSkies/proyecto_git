@@ -1,2 +1,0 @@
-# proyecto_git
-Hello :)
