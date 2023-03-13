@@ -12,7 +12,7 @@ class Reloj:
     def procesador(self):
         return dias.cantidad, horas.cantidad%24, minutos.cantidad%60, segundos.cantidad%60
         
-entrada_usuario=int(input("Escribe tiempo en ssegundos\n:"))
+entrada_usuario=int(input("Escribe tiempo en segundos\n:"))
 
 segundos= Reloj(entrada_usuario)
 minutos= Reloj(segundos.cantidad//60)

@@ -13,6 +13,6 @@ def calculador_tiempo(segundos):
     return conversion
 
 
-entrada=int(input("Escribe tiempo en ssegundos\n:"))
+entrada=int(input("Escribe tiempo en segundos\n:"))
 
 print(calculador_tiempo(entrada))
